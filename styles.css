@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background: url(img/a.png);
+    color: white;
+    background-size:cover;   
+    overflow: hidden;
+    font-family: 'Nerko One', cursive;
+}
+
+html {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+
+
+}
+
+
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    min-height: 900px;
+    position: relative;
+    align-items: center;
+    
+
+}
+
+
+h1{
+    color: #ce2626;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+
+.welcome{
+    margin:0;
+    color: rgb(226, 222, 222);
+}
+
+
+
+form{
+    height: 450px;
+    width: 500px;
+}
+
+/*  INPUTS */
+
+    /* divs */
+    .input-div{
+        margin-left: auto;
+        margin-right: auto;
+        height: 35px;
+        width: 85%;
+        background-color:transparent;
+        border-bottom: solid 1px white;
+    }
+
+
+    i{
+        color: rgb(226, 222, 222);
+    }
+    
+    
+
+
+    .mail{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    
+    }
+
+
+    input{
+    width: 90%;
+    height: 100%;
+    background: none;
+    border: none;
+    color: rgb(226, 222, 222);
+    }
+
+
+
+    input:focus{
+        outline: none;
+    }
+
+    ::placeholder{
+        color: rgb(226, 222, 222);
+    }
+
+
+/* ------------- */
+
+
+
+
+
+.f-pass{
+    margin-left: 50vw;
+    color: rgb(226, 222, 222);
+    margin-bottom: 70px;
+    text-decoration: underline;
+}
+
+.f-pass:hover{
+    cursor: pointer;
+    color: rgb(204, 203, 203);
+}
+
+
+
+
+
+/* BUTTON */
+
+button{
+
+    background-color: #ce2626;
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family:'Nerko One', cursive ;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: #63060e;
+    transition: ease-in 0.2s ;
+}
+
+
+
+.register{
+    color:rgb(226, 222, 222);
+    text-decoration: underline;
+}
+
+.register:hover{
+    color: rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+#no-acc{
+    color:#ce2626;
+}
+
+
+
+@media (min-width:800px) {
+    body{
+        background: url(img/back.png);
+    }
+
+
+    form{
+        border-top: none;
+        background-color: rgba(28, 28, 28, 0.918);
+        box-shadow: 4px 4px 10px rgb(0, 0, 0);
+        border-radius: 7px;
+        display: block;
+    }
+
+    .f-pass{
+        margin-left: 300px;
+    }
+
+    .input-div{
+        border-bottom: 1px rgba(248, 11, 11, 0.342) solid;
+    }
+
+    i{
+        padding: 3px;
+    }
+    
+    ::placeholder, i, .txt {
+        color: gray;
+    }
+
+    #no-acc{
+        color: rgb(201, 201, 201);
+    }
+
+
+    button{
+        background-color: #63060e;
+        color:rgb(201, 201, 201);
+    }
+
+    h1{
+        color: #63060e;
+    }
+
+}
